@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *  print_alphabet- print the alpahbet in lowercase 10 times
+ *  print_alphabet
  *
+ * Description: print the alpahbet in lowercase 10 times
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
