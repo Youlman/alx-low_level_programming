@@ -18,9 +18,9 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				product = i * j;
-				if (product < 10)
-					_putchar(' ');
 				if (product < 100)
+					_putchar(' ');
+				if (product < 10)
 					_putchar(' ');
 				if (product >= 100)
 				{
