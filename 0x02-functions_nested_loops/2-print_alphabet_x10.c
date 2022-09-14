@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- *  print_alphabet
- *
- * Description: print the alpahbet in lowercase 10 times
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_alphabet_x10 - print 10 times the alphabet in lowercase"
  */
 void print_alphabet_x10(void)
 {
