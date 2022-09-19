@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * print_rev - Print a string in reverse
  * @str: the string
@@ -7,7 +7,7 @@
 void print_rev(char *str)
 {
 	int len = 0, i;
-	
+
 	while (*str != '\n')
 	{
 		len++;
