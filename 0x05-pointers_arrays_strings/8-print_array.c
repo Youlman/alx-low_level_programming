@@ -27,4 +27,7 @@ void print_array(int *str, int a)
 		}
 		printf("\n");
 	}
+	else
+		printf("\n");
+
 }
