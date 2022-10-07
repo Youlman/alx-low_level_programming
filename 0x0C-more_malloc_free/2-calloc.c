@@ -10,6 +10,8 @@
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *s;
+	char *tempo;
+	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
@@ -19,6 +21,10 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
+
+	tempo = s;
+	for (i = 0; i < (size * nmemb); i++)
+		tempo[i] = '\0';
 
 	return (s);
 }
