@@ -1,1 +1,1 @@
-Alx programme- Learning C Programming language: Structures, typedef
+Alx programme- Learning C Programming language: Structures, Typedef 
