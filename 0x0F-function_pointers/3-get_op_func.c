@@ -2,10 +2,10 @@
 #include "3-calc.h"
 
 /**
-* get_op_funct - select the corect function  to perform the opertion
-* @char: the operation
+* get_op_func - select the corect function  to perform the opertion
+* @s: the operation
 *
-* Return: the result of the operation 
+* Return: the result of the operation
 */
 
 int (*get_op_func(char *s))(int, int)
@@ -21,7 +21,7 @@ int (*get_op_func(char *s))(int, int)
 	int i = 0;
 
 	while (ops[i].op != NULL && *(ops[i].op) != *s)
-	       i++;
-	
+		i++;
+
 	return (ops[i].f);
 }
