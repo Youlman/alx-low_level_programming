@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * list_len - prints the length elements of a single linked list.
+ * listint_len - prints the length elements of a single linked list.
  * @h: the list .
  *
  * Return: the number of nodes
  */
 
-size_t list_len(const list_t *h)
+size_t listint_len(const listint_t *h)
 {
 	unsigned int count_nodes = 0;
 
