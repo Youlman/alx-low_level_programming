@@ -20,9 +20,9 @@ int pop_listint(listint_t **head)
 
 	node_delete = *head;
 	*head = (*head)->next;
-	head_node_date = node_delete->n;
+	head_node_data = node_delete->n;
 
 	free(node_delete);
 
-	return (node_delete->n);
+	return (head_node_data);
 }
