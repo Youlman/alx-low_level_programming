@@ -4,18 +4,17 @@
 #include <stdlib.h>
 
 /**
- * free_list - Free a list.
+ * free_listint - Free a list.
  * @head: the list .
  */
 
-void free_list(list_t *head)
+void free_listint(listint_t *head)
 {
-	list_t *current;
+	listint_t *current;
 
 	while (head)
 	{
 		current = head->next;
-		free(head->str);
 		free(head);
 		head = current;
 	}
