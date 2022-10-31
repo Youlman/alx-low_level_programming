@@ -5,7 +5,7 @@
  * create_file - create a file.
  * @filename: a pointer to a filename.
  * @text_content: The text content
- * 
+ *
  * Return: 1 or -1
  */
 
