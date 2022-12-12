@@ -63,7 +63,7 @@ int div(int a, int b)
 */
 int mod(int a, int b)
 {
-	int mod = a + b;
+	int mod = a % b;
 
 	return (mod);
 }
