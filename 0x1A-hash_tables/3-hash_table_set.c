@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_tabe_set - Function that adds an element to the hash table
+ * hash_table_set - Function that adds an element to the hash table
  * @ht: the hash table
  * @key: the key
  * @value: the value assoociated with the key
@@ -16,8 +16,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	unsigned long int index, i;
 
 	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
-	       return (0);
-	
+		return (0);
+
 	value_cpy = strdup(value);
 	if (value_cpy == NULL)
 		return (0);
